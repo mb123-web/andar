@@ -1,0 +1,137 @@
+<html>
+ <head>
+  <title>
+   Sign Up
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-image: url('https://placehold.co/500x500');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            color: white;
+        }
+        .container h1 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .container select, .container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+        }
+        .container .gender {
+            display: flex;
+            justify-content: space-between;
+        }
+        .container .gender div {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .container .gender div.active {
+            border-color: #00ff00;
+        }
+        .container .gender div i {
+            font-size: 24px;
+        }
+        .container .terms {
+            font-size: 12px;
+            margin: 10px 0;
+        }
+        .container .terms a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+        .container button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <img alt="Roblox logo" height="50" src="https://storage.googleapis.com/a1aa/image/Q8Dm8gDWnT4DLJv9vsrn45sAmBoiCMKRvCBg3pDlHWpAWs7E.jpg" style="margin-bottom: 20px;" width="200"/>
+   <h1>
+    SIGN UP AND START HAVING FUN!
+   </h1>
+   <form>
+    <label for="birthday">
+     Birthday
+    </label>
+    <div class="birthday">
+     <select id="month">
+      <option>
+       January
+      </option>
+     </select>
+     <select id="day">
+      <option>
+       01
+      </option>
+     </select>
+     <select id="year">
+      <option>
+       1949
+      </option>
+     </select>
+    </div>
+    <label for="username">
+     Username
+    </label>
+    <input id="username" type="text" value="aldero07"/>
+    <label for="password">
+     Password
+    </label>
+    <input id="password" type="password" value="password"/>
+    <div class="gender">
+     <div class="active">
+      <i class="fas fa-female">
+      </i>
+     </div>
+     <div>
+      <i class="fas fa-male">
+      </i>
+     </div>
+    </div>
+    <div class="terms">
+     By clicking Sign Up, you are agreeing to the
+     <a href="#">
+      Terms of Use
+     </a>
+     including the arbitration clause and you are acknowledging the
+     <a href="#">
+      Privacy Policy
+     </a>
+    </div>
+    <button type="submit">
+     Sign Up
+    </button>
+   </form>
+  </div>
+ </body>
+</html>
